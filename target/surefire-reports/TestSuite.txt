@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 55.817 s <<< FAILURE! - in TestSuite
+verifyHeader(com.qa.nwalletTests.TC1_DebtLoanTest)  Time elapsed: 7.086 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using link text=Debt consolidation loans
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-S1CU7QQO', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at com.qa.nwalletTests.TC1_DebtLoanTest.verifyHeader(TC1_DebtLoanTest.java:30)
+
+verifyLendingPartners(com.qa.nwalletTests.TC1_DebtLoanTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.nwalletTests.TC1_DebtLoanTest.verifyLendingPartners(TC1_DebtLoanTest.java:37)
+
+verifyHeader(com.qa.nwalletTests.TC2_StudentLoanTest)  Time elapsed: 0.073 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-S1CU7QQO', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\BHAWNA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 48a96378588b2a84de8673c02b4c48cb
+	at com.qa.nwalletTests.TC2_StudentLoanTest.verifyHeader(TC2_StudentLoanTest.java:31)
+
+verifyOptions(com.qa.nwalletTests.TC2_StudentLoanTest)  Time elapsed: 12.025 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-S1CU7QQO', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\BHAWNA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 48a96378588b2a84de8673c02b4c48cb
+*** Element info: {Using=xpath, value=//img[@alt='SoFi Student Loan Refinance']}
+	at com.qa.nwalletTests.TC2_StudentLoanTest.verifyOptions(TC2_StudentLoanTest.java:38)
+

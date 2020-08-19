@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.qa.nwalletTests.TC1_DebtLoanTest">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="verifyHeader"/>
+          <include name="verifyLendingPartners"/>
+        </methods>
+      </class> <!-- com.qa.nwalletTests.TC1_DebtLoanTest -->
+      <class name="com.qa.nwalletTests.TC2_StudentLoanTest">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="verifyHeader"/>
+          <include name="verifyOptions"/>
+        </methods>
+      </class> <!-- com.qa.nwalletTests.TC2_StudentLoanTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,0 +1,4 @@
+com\qa\pages\StudentLoanPage.class
+com\qa\pages\DebtConsolePage.class
+com\qa\pages\WalletHomePage.class
+com\qa\base\TestBase.class
